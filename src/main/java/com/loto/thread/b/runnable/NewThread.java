@@ -3,7 +3,7 @@ package com.loto.thread.b.runnable;
 /**
  * Author：蓝田_Loto<p>
  * Date：2018-12-27 18:45<p>
- * PageName：a_Runnable.java<p>
+ * PageName：NewThread.java<p>
  * Function：创建线程
  */
 
@@ -12,7 +12,7 @@ public class NewThread {
         // 通过 new 创建任务对象
         ImplementsRunnable runnable = new ImplementsRunnable();
 
-        // 通过 new Thread 创建线程（将 Runnable 接口的子类对象 runnable 作为参数传递给 Thread 类的构造函数）
+        // 通过 new Thread 创建线程，用来承载上面的任务（将 Runnable 接口的子类对象 runnable 作为参数传递给 Thread 类的构造函数）
         Thread thread1 = new Thread(runnable);
         Thread thread2 = new Thread(runnable);
 
