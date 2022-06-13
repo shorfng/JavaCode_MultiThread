@@ -1,4 +1,4 @@
-package com.loto.thread.a.thread;
+package com.loto.thread.a.create.a.thread;
 
 /**
  * Author：蓝田_Loto<p>
